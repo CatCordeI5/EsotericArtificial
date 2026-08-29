@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+generate_rules.py
+memory.json
+guard_rules.dat
