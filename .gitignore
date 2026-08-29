@@ -1,5 +1,8 @@
 __pycache__/
 *.pyc
+*.pyo
+.DS_Store
 generate_rules.py
 memory.json
-guard_rules.dat
+*.log
+.env
