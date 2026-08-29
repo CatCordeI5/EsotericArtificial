@@ -28,3 +28,6 @@ pip install -r requirements.txt
 
 # Run Lunoia
 python lunoia_cli.py
+
+
+you can buy it for $0.01 or... just get the free!!
