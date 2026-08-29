@@ -15,4 +15,16 @@ Founded by a minor developer with a mission: **Technology must serve humanity, n
 **i hope this AI is work, oh god please.**
 
 
-btw if you making or edit this repo, you can write your repo by your name and i dont care if i make first, you make the remake of me and put your name on your hand coded. or ai coded.
+btw if you making or edit this repo, you can write your repo by your name and i dont care if i make first, you make the remake of me and put your name on your hand coded. or ai coded. My project is "AS IS".
+
+quick start
+
+```bash
+# Clone the repository
+download the file .zip from the repository.
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Lunoia
+python lunoia_cli.py
