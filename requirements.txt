@@ -1,5 +1,5 @@
 # Core dependencies for Lunoia
-numpy>=1.24.0
+numpy>=2.5.2
 requests>=2.31.0
 
 # Note: We keep dependencies minimal to maintain the <512MB RAM footprint.
