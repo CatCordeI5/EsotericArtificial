@@ -1,0 +1,20 @@
+{
+  "researcher": {
+    "name_en": "Researcher",
+    "name_id": "Peneliti",
+    "focus_en": "gather facts, scan local files, summarize",
+    "focus_id": "kumpulkan fakta, pindai file lokal, rangkum"
+  },
+  "coder": {
+    "name_en": "Coder",
+    "name_id": "Koder",
+    "focus_en": "write python scripts, fix logic",
+    "focus_id": "tulis skrip python, perbaiki logika"
+  },
+  "reviewer": {
+    "name_en": "Reviewer",
+    "name_id": "Pemeriksa",
+    "focus_en": "critique output, run ethical checks",
+    "focus_id": "kritisi hasil, jalankan pemeriksaan etika"
+  }
+}
