@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>EsotericArtificial | Lunoia v0.1</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background: #e0f7fa;
+            background-image: linear-gradient(to bottom, #87CEFA 0%, #E0F7FA 40%, #98FB98 100%);
+            background-attachment: fixed;
+            font-family: Verdana, Tahoma, Geneva, sans-serif;
+            font-size: 11px;
+            color: #333333;
+        }
+
+        #wrapper {
+            width: 800px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            border: 1px solid #888888;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        #header {
+            background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 49%, #d0d0d0 50%, #e0e0e0 100%);
+            border-bottom: 1px solid #888888;
+            border-radius: 8px 8px 0 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #header h1 {
+            font-family: "Trebuchet MS", Verdana, sans-serif;
+            font-size: 28px;
+            color: #0066cc;
+            margin: 0;
+            text-shadow: 1px 1px 0px #ffffff;
+        }
+
+        #header .tagline {
+            font-style: italic;
+            color: #666666;
+            margin-top: 5px;
+            font-size: 12px;
+        }
+
+        .marquee-box {
+            background-color: #ffffcc;
+            border-top: 1px solid #e6db55;
+            border-bottom: 1px solid #e6db55;
+            color: #333333;
+            padding: 4px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        #content-wrapper {
+            overflow: hidden;
+            padding: 15px;
+        }
+
+        #sidebar {
+            float: left;
+            width: 180px;
+            padding-right: 15px;
+        }
+
+        #main {
+            float: right;
+            width: 575px;
+        }
+
+        .nav-box {
+            background: #f9f9f9;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .nav-header {
+            background: linear-gradient(to bottom, #a9dbf9 0%, #4cb4f0 49%, #0084d4 50%, #0066aa 100%);
+            color: #ffffff;
+            font-weight: bold;
+            padding: 6px 10px;
+            border-bottom: 1px solid #005599;
+            border-radius: 4px 4px 0 0;
+            font-size: 11px;
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        }
+
+        .nav-box ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 8px;
+        }
+
+        .nav-box li {
+            margin-bottom: 4px;
+        }
+
+        .nav-box a {
+            display: block;
+            padding: 4px 8px;
+            color: #0066cc;
+            text-decoration: none;
+            border: 1px solid transparent;
+        }
+
+        .nav-box a:hover {
+            background-color: #e6f2ff;
+            border: 1px solid #b3d9ff;
+            border-radius: 3px;
+        }
+
+        h2 {
+            font-family: "Trebuchet MS", Verdana, sans-serif;
+            color: #0066cc;
+            font-size: 16px;
+            border-bottom: 1px dotted #cccccc;
+            padding-bottom: 4px;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* BOX PESAN RANDOM KHAS FORUM 2000-an */
+        .random-quote-box {
+            background-color: #f0f8ff;
+            border: 1px inset #cccccc;
+            padding: 15px;
+            font-family: "Comic Sans MS", "Trebuchet MS", Verdana, sans-serif; /* Sedikit sentuhan absurd */
+            font-size: 14px;
+            color: #0066cc;
+            text-align: center;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .gel-button {
+            display: inline-block;
+            padding: 6px 16px;
+            margin: 5px;
+            font-family: Verdana, sans-serif;
+            font-size: 11px;
+            font-weight: bold;
+            color: #ffffff;
+            text-decoration: none;
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+            background: linear-gradient(to bottom, #a9dbf9 0%, #4cb4f0 49%, #0084d4 50%, #0066aa 100%);
+            border: 1px solid #005599;
+            border-radius: 12px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            cursor: pointer;
+        }
+
+        .gel-button:hover {
+            background: linear-gradient(to bottom, #c4eaff 0%, #66c2ff 49%, #1a99e6 50%, #0077cc 100%);
+        }
+
+        .gel-button.green {
+            background: linear-gradient(to bottom, #a9f9a9 0%, #4cf04c 49%, #00d400 50%, #00aa00 100%);
+            border: 1px solid #008800;
+        }
+        .gel-button.green:hover {
+            background: linear-gradient(to bottom, #c4ffc4 0%, #66ff66 49%, #1ae61a 50%, #00cc00 100%);
+        }
+
+        #footer {
+            background: #f0f0f0;
+            border-top: 1px solid #cccccc;
+            border-radius: 0 0 8px 8px;
+            padding: 15px;
+            text-align: center;
+            color: #666666;
+            font-size: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            border: 1px solid #999;
+            background: #fff;
+            padding: 2px 6px;
+            font-size: 9px;
+            color: #333;
+            margin: 0 2px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="header">
+        <h1>EsotericArtificial</h1>
+        <div class="tagline">"Intelligence is IDK"</div>
+    </div>
+
+    <div class="marquee-box">
+        <marquee scrollamount="4">+++ WELCOME TO LUNOIA v0.1 ALPHA +++ LIGHTWEIGHT AI +++ APACHE 2.0 LICENSE +++ NO TRACKING i think +++</marquee>
+    </div>
+
+    <div id="content-wrapper">
+        <div id="sidebar">
+            <div class="nav-box">
+                <div class="nav-header">Navigation</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">License (Apache v2)</a></li>
+                    <li><a href="#">Guestbook</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-box">
+                <div class="nav-header">System Info</div>
+                <ul style="font-size: 10px; color: #666;">
+                    <li>RAM: &lt;512MB (maybe)</li>
+                    <li>Mode: Hybrid</li>
+                    <li>Lang: EN / ID</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="main">
+            <!-- PENGGANTI ASCII ART DENGAN KALIMAT RANDOM -->
+            <div class="random-quote-box">
+                "What is funny? because it is, haha its funny."
+            </div>
+
+            <h2>What is Lunoia?</h2>
+            <p>
+                Lunoia is a lightweight, privacy-first AI that runs entirely on your local machine. 
+                No cloud dependency. No telemetry. Just clean, efficient code. 
+                Built for those who believe intelligence should be accessible, private, and free.
+            </p>
+
+            <h2>Core Features</h2>
+            <ul style="line-height: 1.8;">
+                <li><strong>Ultra-Lightweight i think:</strong> Designed to run smoothly on &lt;512MB RAM environments.</li>
+                <li><strong>100% Local & Private:</strong> Your data never leaves your device.</li>
+                <li><strong>Hybrid Architecture:</strong> Seamless fallback between offline vector brain and optional online browser hooks.</li>
+                <li><strong>Bilingual Native:</strong> Fully supports English and Indonesian out of the box. idk 
+                bla bla bla</li>
+            </ul>
+
+            <div style="text-align: center; margin-top: 25px; padding: 15px; background: #f9f9f9; border: 1px dashed #ccc;">
+                <a href="https://github.com/CornelI5/EsotericArtificial" class="gel-button">View on GitHub</a>
+                <a href="#" class="gel-button green">Download v0.1</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        &copy; 2026 CatCordeI5 | EsotericArtificial Labs<br />
+        <span class="badge">Apache License 2.0</span>
+        <span class="badge">Valid XHTML 1.0</span>
+        <span class="badge">Best viewed in 800x600</span>
+    </div>
+</div>
+
+</body>
+</html>
