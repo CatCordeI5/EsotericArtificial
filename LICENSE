@@ -1,0 +1,45 @@
+================================================================================
+                     MEMOIR LICENSE VERSION 3.0
+                  Copyright (c) 2026 CatCordeI5
+================================================================================
+
+PREAMBLE:
+Lunoia is built for humanity, not exploitation. This license ensures that 
+any use of this code remains transparent and respects the creator's rights.
+
+1. DEFINITIONS
+- "The Code": All source code, assets, documentation in this repository.
+- "The Owner": CatCordeI5 (CornelI5), sole creator and guardian.
+- "Derivative Work": Any modification, fork, integration, or training data 
+  derived from The Code.
+- "Commercial Use": Any use intended for profit, including SaaS, APIs, 
+  proprietary models, or enterprise products.
+
+2. OPEN SOURCE MANDATE FOR NON-COMMERCIAL USE
+- Non-commercial Derivative Works MUST be released under an Open Source License 
+  (MIT, Apache 2.0, GPL, or Memoir v3).
+- You cannot hide non-commercial derivatives behind closed-source walls.
+- Proper attribution to CatCordeI5/EsoArtificial is REQUIRED.
+
+3. COMMERCIAL USE REQUIRES LICENSE
+- Commercial Use WITHOUT a written Commercial License from The Owner is PROHIBITED.
+- Commercial Licenses are available via direct negotiation with The Owner.
+- Fees support the humanitarian mission (30-48% to critical patient care).
+
+4. NO TRAINING ON PROPRIETARY MODELS
+- The Code may NOT be used to train, fine-tune, or distill proprietary/commercial 
+  AI models without explicit written permission.
+- Research/academic training is permitted with proper attribution.
+
+5. ATTRIBUTION & TRANSPARENCY
+- All public deployments or distributions must clearly state: 
+  "Powered by EsoArtificial Lunoia (Memoir v3 License)"
+- Failure to provide attribution constitutes license violation.
+
+6. DISCLAIMER OF WARRANTY (AS IS)
+- SOFTWARE PROVIDED "AS IS". NO WARRANTIES. NO LIABILITY FOR DAMAGES.
+- USE AT YOUR OWN RISK.
+
+7. TERMINATION
+- Violation = Automatic termination of all rights.
+- Cease use and destroy copies within 30 days of notice.
