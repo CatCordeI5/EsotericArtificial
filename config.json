@@ -1,0 +1,18 @@
+{
+  "lunoia": {
+    "version": "0.1-alpha",
+    "language": "auto",
+    "vector_dimension": 64,
+    "ram_limit_mb": 512,
+    "hibernation_timeout_minutes": 5
+  },
+  "privacy": {
+    "allow_online_fallback": true,
+    "save_memory_locally": true,
+    "send_telemetry": false
+  },
+  "noia_hook": {
+    "enabled": false,
+    "port": 8765
+  }
+}
