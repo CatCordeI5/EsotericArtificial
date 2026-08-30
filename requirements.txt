@@ -1,1 +1,6 @@
+# Core dependencies for Lunoia
 numpy>=1.24.0
+requests>=2.31.0
+
+# Note: We keep dependencies minimal to maintain the <512MB RAM footprint.
+# No heavy ML frameworks (PyTorch/TensorFlow) allowed here!
